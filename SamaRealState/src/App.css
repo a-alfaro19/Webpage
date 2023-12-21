@@ -1,0 +1,143 @@
+#map { height: 180px; }
+
+.property-body {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.property-body-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.property-body-info-buttons {
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.property-card-carousel {
+    width: 288px;
+    height: 300px;
+}
+
+.carousel-inner {
+    border-radius: 5%;
+}
+
+.property-card-img {
+    width: 288px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.property-card-body {
+    text-align: left;
+    margin: auto;
+    width: 288px;
+}
+
+.property-card-body-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.property-card-body-p {
+    margin-bottom: 5px;
+}
+
+.photo-collage {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.photo-collage-main-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 2.5% 0 0 2.5%;
+}
+
+.photo-collage-grid {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.photo-collage-grid-row {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.photo-collage-img {
+    width: 100%;
+    height: 196px;
+    object-fit: cover;
+}
+
+.photo-collage-button {
+    width: 30%;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.photo-gallery-img {
+    width: 90%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.login-card {
+    width: 50%;
+    padding: 5% 10%;
+    margin-top: 100px;
+}
+
+.login-title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#top-right-corner{
+    border-radius: 0 2.5% 0 0;
+}
+
+#bot-right-corner{
+    border-radius: 0 0 2.5% 0;
+}
+
+@media (max-width: 767px) {
+    .photo-collage-main-img {
+        border-radius: 2.5% 2.5% 2.5% 2.5%;
+    }
+
+    .photo-collage-hide-col {
+        display: none;
+    }
+}
+
+.manager-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    width: 288px;
+    padding: 0;
+}
